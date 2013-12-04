@@ -206,7 +206,7 @@ td {
 
 /* Wrapper */
 .wrapper {
-  width:960px;
+  width:990px;
 }
 
 
@@ -215,7 +215,7 @@ td {
 header {
 	background-color: #171717;
 	color: #FDFDFB;
-  width:170px;
+  width:250px;
   float:left;
   position:fixed;
 	border: 1px solid #000;
@@ -263,7 +263,7 @@ header ul {
 
 header li {
 	list-style-type: none;
-  width:132px;
+  width:152px;
   height:15px;
 	margin-bottom: 12px;
 	line-height: 1em;
@@ -317,7 +317,7 @@ a.buttons:hover {
 /* Section - for main page content */
 
 section {
-  width:650px;
+  width:575px;
   float:right;
   padding-bottom:50px;
 }
