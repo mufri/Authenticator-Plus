@@ -1,36 +1,9 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Authenticator Plus</title>
+---
+layout: default
+title: Home
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Authenticator Plus</h1>
-        <!--p class="header">Authenticator Plus is one-time passcode generator for 2-step verification, with Backup/Restore, Seamless Sync across devices, encrypted data storage and other customisation options.</p-->
-
-        <ul>
-          <li class="download"><a class="buttons" href="https://play.google.com/store/apps/details?id=com.mufri.authenticatorplus">Google Play Store </a></li>
-          <li class="download"><a class="buttons" href="http://amzn.to/15P7V9u">Amazon App Store</a></li>
-          <!--li><a class="buttons github" href="https://github.com/mufri/Authenticator-Plus">View On GitHub</a></li-->
-        </ul>
-
-        <!--p class="header">This project is maintained by <a class="header name" href="https://github.com/mufri">mufri</a></p-->
-
-
-      </header>
-      <section>
-        <h1>
+<h1>
 <a name="authenticator-plus" class="anchor" href="#authenticator-plus"><span class="octicon octicon-link"></span></a><strong>Authenticator-Plus</strong>
 </h1>
 
@@ -110,22 +83,4 @@ You always have choice of using your own sync solutions.</p>
 <p>Kindly send your comments / bugs / suggestions to <a href="mailto:support@mufri.com">support@mufri.com</a> </p>
 
 <p>and / or <a href="https://plus.google.com/communities/112758447024930583113">https://plus.google.com/communities/112758447024930583113</a></p>
-      </section>
-      <!--footer>
-        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer-->
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		          <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-37384394-2");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
 
-  </body>
-</html>
