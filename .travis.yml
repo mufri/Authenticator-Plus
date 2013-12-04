@@ -4,4 +4,4 @@ rvm:
 script: bundle exec jekyll build
 
 notifications:
-  email: trainingteam@github.com
+  email: travis@mufri.com
