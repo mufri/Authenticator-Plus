@@ -5,22 +5,22 @@
 header,
 #subtitle,
 a.dl {
-  background-color: #48b983;
+  background-color: #272727;
 }
 
 .content-nav li.active a,
 .content-nav li.active a:hover {
-  border-left-color: #48b983;
+  border-left-color: #272727;
 }
 
 /*** One step left on the monochromatic scale ***/
 
 header menu li a:hover,
 a.dl:hover {
-  background-color: #40a776;
+  background-color: #373737;
 }
 a {
-  color: #40a776;
+  color: #373737;
 }
 
 /*** Three steps left on the monochromatic scale ***/
