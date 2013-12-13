@@ -17,7 +17,7 @@
     
     Use License
     
-    Purchases of Mufri mobile applications on the Android platform (either through an initial payment, in-app purcahses or other means) may be refundable for a short time period in accordance with the refund policy of the application store from which the purchase was made. Once this time period elapses, all purchases are 100% non-refundable. Mufri is in no way responsible for handling these refunds.
+    Purchases of Mufri mobile applications on the Android platform (either through an initial payment, in-app purchases or other means) may be refundable for a short time period in accordance with the refund policy of the application store from which the purchase was made. Once this time period elapses, all purchases are 100% non-refundable. Mufri is in no way responsible for handling these refunds.
     
     Permission is granted to use the Authenticator Plus mobile application(s). This is the grant of a license, not a transfer of title, and under this license you may not:
     
