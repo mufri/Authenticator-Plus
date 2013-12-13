@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!--  Homepage 3 -->
+  <!--  Homepage 4 -->
   <url>
     <loc>http://{{ site.domain }}/</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
@@ -14,13 +14,20 @@ layout: nil
   
 
 {% for page in site.posts %}
+    
+  <url>
+    <loc>http://{{ site.domain }}{{ page.url }}</loc>
     - [http://{{ site.domain }}{{ page.url }}](http://{{ site.domain }}{{ page.url }})
+    </url>
 {% endfor %}
 
 {% for page in site.html_pages %}
 
- - [http://{{ site.domain }}{{ page.url }}](http://{{ site.domain }}{{ page.url }})
+<url>
+    <loc>http://{{ site.domain }}{{ page.url }}</loc>
 
+ - [http://{{ site.domain }}{{ page.url }}](http://{{ site.domain }}{{ page.url }})
+</url>
 {% endfor %}
   
 </urlset>
