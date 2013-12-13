@@ -23,11 +23,15 @@ layout: nil
 
 {% for page in site.html_pages %}
 
-<url1>
     <loc>http://{{ site.domain }}{{ page.url }}</loc>
-
- - [http://{{ site.domain }}{{ page.url }}](http://{{ site.domain }}{{ page.url }})
-</url>
+    {% if page.last_updated %}
+    <lastmod>{{ page.last_updated | date: "%Y-%m-%d" }}</lastmod>
+    {% elsif page.date %}
+    <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
+    {% else %}
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+    {% endif %}
+    
 {% endfor %}
   
 </urlset>
