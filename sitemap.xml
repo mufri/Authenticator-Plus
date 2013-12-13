@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!--  Homepage 4 -->
+  <!--  Homepage 5 -->
   <url>
     <loc>http://{{ site.domain }}/</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
@@ -14,15 +14,7 @@ layout: nil
   
 
 {% for page in site.posts %}
-    
   <url>
-    <loc>http://{{ site.domain }}{{ page.url }}</loc>
-    - [http://{{ site.domain }}{{ page.url }}](http://{{ site.domain }}{{ page.url }})
-    </url>
-{% endfor %}
-
-{% for page in site.html_pages %}
-
     <loc>http://{{ site.domain }}{{ page.url }}</loc>
     {% if page.last_updated %}
     <lastmod>{{ page.last_updated | date: "%Y-%m-%d" }}</lastmod>
@@ -31,7 +23,20 @@ layout: nil
     {% else %}
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     {% endif %}
-    
-{% endfor %}
+  </url>
+  {% endfor %}
+
+  {% for page in site.html_pages %}
+  <url>
+    <loc>http://{{ site.domain }}{{ page.url }}</loc>
+    {% if page.last_updated %}
+    <lastmod>{{ page.last_updated | date: "%Y-%m-%d" }}</lastmod>
+    {% elsif page.date %}
+    <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
+    {% else %}
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+    {% endif %}
+  </url>
+  {% endfor %}
   
 </urlset>
