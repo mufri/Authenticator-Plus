@@ -1,20 +1,134 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Authenticator Plus {% if page.title }%} - {{page.title}}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Better way to manage 2-factor enabled accounts">
+    <link href="static/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="static/app.css" rel="stylesheet">
+    <link href="static/app-theme.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300italic,100,100italic,300" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="https://lh6.ggpht.com/GxO-YPkdkzXwkpdThf-YLgFH0hx1re0M_HRwJfnJdD0NAdGQDy7OOeldDxLIx3Kotcw=w300" />
+    <link href="https://plus.google.com/100315057978345794340" rel="publisher" />
+    <!--[if lt IE 9]><script src="static/html5shiv.min.js"></script><![endif]-->
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-  <script>
+<!-- Content recommendations for mobile websites -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+    po.src = "https://apis.google.com/js/plusone.js?publisherid=100315057978345794340";
+    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</head>
+  <body data-target=".content-nav" itemscope itemtype="http://schema.org/Article">
+    <header>
+      <div class="container" itemscope itemtype="http://schema.org/Product">
+        <meta itemprop="name" content="Authenticator Plus">
+        <div class="row">
+          <div class="span5" itemprop="brand" itemscope itemtype="http://schema.org/Brand">
+            <h1 itemprop="name">
+                <img itemprop="logo" src="https://lh6.ggpht.com/GxO-YPkdkzXwkpdThf-YLgFH0hx1re0M_HRwJfnJdD0NAdGQDy7OOeldDxLIx3Kotcw=w300" width="60" height="60">
+                Authenticator Plus
+            </h1>
+          </div>
+          <div class="span7">
+            <menu>
+              <ul>
+                <li><a href="http://mufri.com" data-title="Go to Mufri.com" class="menu">Mufri</a></li>
+              </ul>
+            </menu>
+          </div>
+      </div>
+    </header>
+    <section id="subtitle">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h2>Better way to manage <strong>2-factor</strong> enabled accounts</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="body">
+      <div class="container">
+        <div class="row">
+          <div class="span9">
+            <h3 id="introduction">{{page.title}}</h3>
+            <p itemprop="description">{{content}}</p>
+          </div>
+          <div class="span3">
+            <div class="content-nav" data-spy="affix" data-offset-top="80">
+              <ul class="nav nav-tabs nav-stacked primary">
+              <div class="g-page" data-href="https://plus.google.com/100315057978345794340" data-width="215" data-layout="landscape" data-rel="publisher"></div>
+
+                <li><a href="http://authenticatorplus.com">Home</a></li>
+                <li><a href="http://authenticatorplus.com#download">Download</a></li>
+                <li><a href="http://support.authenticatorplus.com">Support Page</a></li>
+                <li><a href="https://plus.google.com/100315057978345794340" rel="publisher">Google+</a></li>
+                <!--
+                <li><a href="#contributing">Contributing</a></li>
+                <li><a href="#license">License</a></li>
+                -->
+              </ul>
+              <ul class="nav nav-pills nav-stacked secondary">
+                <li><a href="#privacy">Pricacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span12 logo">
+            <a href="http://muri.com">Muri.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+<meta itemprop="price" content="2.99$"></span>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="static/bootstrap.min.js"></script>
+    <script src="static/jquery.smooth-scroll.min.js"></script>
+    <script src="static/jquery-maven-artifact.min.js"></script>
+    <script src="static/prettify.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        // Syntax highlight code blocks.
+        prettyPrint();
+
+        // Spy on scroll position for real-time updating of current section.
+        $('body').scrollspy();
+
+        // Use smooth-scroll for internal links.
+        $('a').smoothScroll();
+
+        // Enable tooltips on the header nav image items.
+        $('.menu').tooltip({
+          placement: 'bottom',
+          trigger: 'hover',
+          container: 'body',
+          delay: {
+            show: 500,
+            hide: 0
+          }
+        });
+
+
+      });
+
+    </script>
+
+
+
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+
+<script>
 // Include the UserVoice JavaScript SDK (only needed once on a page)
 UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/gnakMjnZIYZd6SGwbredg.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
 
@@ -25,9 +139,9 @@ UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script
 
 // Set colors
 UserVoice.push(['set', {
-  accent_color: '#448dd6',
+  accent_color: '#808283',
   trigger_color: 'white',
-  trigger_background_color: 'rgba(46, 49, 51, 0.6)'
+  trigger_background_color: '#448dd6'
 }]);
 
 // Identify the user and pass traits
@@ -57,39 +171,36 @@ UserVoice.push(['addTrigger', { mode: 'contact', trigger_position: 'bottom-right
 // Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
 UserVoice.push(['autoprompt', {}]);
 </script>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">{{page.title}}</h1>
-        <!--p class="header">Authenticator Plus is one-time passcode generator for 2-step verification, with Backup/Restore, Seamless Sync across devices, encrypted data storage and other customisation options.</p-->
-
-        <ul>
-          <li class="download"><a class="buttons" href="https://play.google.com/store/apps/details?id=com.mufri.authenticatorplus">Google Play Store </a></li>
-          <li class="download"><a class="buttons" href="http://amzn.to/15P7V9u">Amazon App Store</a></li>
-          <!--li><a class="buttons github" href="https://github.com/mufri/Authenticator-Plus">View On GitHub</a></li-->
-        </ul>
-
-        <!--p class="header">This project is maintained by <a class="header name" href="https://github.com/mufri">mufri</a></p-->
 
 
-      </header>
-      <section>
-        {{content}}
-      </section>
-      <!--footer>
-        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer-->
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		          <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-37384394-2");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44491916-3', 'authenticatorplus.com');
+  ga('send', 'pageview');
+
+</script>
+
+
 
   </body>
 </html>
