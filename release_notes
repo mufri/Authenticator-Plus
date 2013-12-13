@@ -1,0 +1,50 @@
+**2.9.1**
+ 
+- Sync plugin integrated with main app, due to this dropbox needs to be relinked.
+- ROOT only: Auto login of PIN if setup is 4 digits
+- ROOT only: Landscape mode for PIN screen
+- Sync algorithm optimisation
+- New way to send feedback, try it now
+    
+**2.3**
+
+ - NEW: Report an error option
+ - Fixed native lib load crash in ICS devices
+ - UI changes
+
+**2.1**
+
+ - NEW: PIN lock mandatory only for root device
+ - Fixed crash due to native lib loading
+ - Various other bug fixes
+
+**2.0**
+ 
+ - NEW: Dropbox Sync
+ - NEW: Auto Sync on edits
+ - Set PIN Lock as default
+ - Removed internet permission
+ - Various other bug fixes
+
+**1.4**
+
+ - NEW: PIN lock
+ - Various other bug fixes
+
+**1.3**
+
+ - BUG: Improve the 'Enable Credential storage' flow
+ - Various other bug fixes
+
+**1.2**
+
+ - NEW: Accounts can be rearranged
+ - IMPROVEMENTS: UI changes
+
+**1.1**
+
+ - NEW: Android 4.3 Security API support based on hardware
+
+**1.0**
+
+ - initial release
