@@ -23,7 +23,7 @@ layout: nil
 
 {% for page in site.html_pages %}
 
-<url>
+<url1>
     <loc>http://{{ site.domain }}{{ page.url }}</loc>
 
  - [http://{{ site.domain }}{{ page.url }}](http://{{ site.domain }}{{ page.url }})
