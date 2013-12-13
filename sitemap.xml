@@ -12,10 +12,6 @@ layout: nil
     <priority>1.0</priority>
   </url>
   
-{% for page in site.posts %}
-  <url>
-    <loc>http://{{ site.domain }}{{ page.url }}</loc>
 
-  {% endfor %}
   
 </urlset>
