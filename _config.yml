@@ -1,3 +1,6 @@
 markdown: rdiscount
 pygments: true
 permalink: /:title
+exclude ['README.md']
+
+domain: authenticatorplus.com
