@@ -1,3 +1,8 @@
+---
+ layout: default
+ title: Authenticator Plus Release Notes
+---
+
 **2.9.1**
  
 - Sync plugin integrated with main app, due to this dropbox needs to be relinked.
