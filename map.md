@@ -9,6 +9,6 @@
 
 {% for page in site.html_pages %}
 
- - http://{{ site.domain }}{{ page.url }}
+ - http://{{ site.domain }}{{ page.url }
 
 {% endfor %}
