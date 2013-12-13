@@ -14,4 +14,4 @@
 {% endfor %}
 
 
-  [1]: http://%7B%7B%20site.domain%20%7D%7D%20http://%7B%7B%20site.domain%20%7D%7D
+  [1]: http://{{ site.domain }}
