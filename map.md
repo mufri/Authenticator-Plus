@@ -1,8 +1,8 @@
 ---
  layout: default
- title: Sitemap Policy
+ title: Sitemap
 ---
- - [http://{{ site.domain }}][1]
+ - [http://{{ site.domain }}] (http://{{ site.domain }})
 {% for page in site.posts %}
     - http://{{ site.domain }}{{ page.url }}
 {% endfor %}
@@ -12,6 +12,3 @@
  - http://{{ site.domain }}{{ page.url }}
 
 {% endfor %}
-
-
-  [1]: http://{{ site.domain }}
