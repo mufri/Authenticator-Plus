@@ -9,10 +9,10 @@ layout: nil
     <loc>http://{{ site.domain }}/</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+		<priority>1.0</priority>
   </url>
 
-{% for page in site.posts %}
+  {% for page in site.posts %}
   <url>
     <loc>http://{{ site.domain }}{{ page.url }}</loc>
     {% if page.last_updated %}
@@ -39,6 +39,5 @@ layout: nil
     {% if page.priority %}<priority>{{ page.priority }}</priority>{% endif %}
   </url>
   {% endfor %}
-  
-  
-  </urlset>
+
+</urlset>
