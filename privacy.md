@@ -37,7 +37,7 @@
     
     Tracking
     
-    We use Google Analytics to collect anaymous usage statics.
+    We use Google Analytics to collect anonymous usage statistics.
     
     
     
@@ -56,7 +56,6 @@
     Notification of Privacy Statement Changes
     
     We may update this privacy statement to reflect changes to our information practices. If we make any material changes we will notify you by email (sent to the e-mail address specified in your account) or by means of a notice on this Site prior to the change becoming effective. We encourage you to periodically review this page for the latest information on our privacy practices.
-    
     
     
     Contact
