@@ -6,9 +6,16 @@ build:
     # which improves build execution time of
     # future builds
     - bundle-install
+    
+    # Execute jeykyll doctor command to validate the
+    # site against a list of known issues.
+    - script:
+        name: jekyll doctor
+        code: bundle exec jekyll doctor    
 
     # A custom script step
     # that actually builds the jekyll site
     - script:
         name: generate site
-        code: bundle exec jekyll build --trace
+        code: |-
+          bundle exec jekyll build --trace
