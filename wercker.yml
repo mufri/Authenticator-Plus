@@ -12,6 +12,10 @@ build:
     - script:
         name: jekyll doctor
         code: bundle exec jekyll doctor    
+        
+    - script:
+        name: list files here
+        code: ls -l
 
     # A custom script step
     # that actually builds the jekyll site
