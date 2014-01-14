@@ -2,130 +2,145 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Authenticator Plus {% if page.title }%} - {{page.title}}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Better way to manage 2-factor enabled accounts">
-    <link href="static/bootstrap-combined.min.css" rel="stylesheet">
-    <link href="static/app.css" rel="stylesheet">
-    <link href="static/app-theme.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300italic,100,100italic,300" rel="stylesheet" type="text/css">
-    <link rel="icon" type="image/png" href="https://lh6.ggpht.com/GxO-YPkdkzXwkpdThf-YLgFH0hx1re0M_HRwJfnJdD0NAdGQDy7OOeldDxLIx3Kotcw=w300" />
-    <link href="https://plus.google.com/100315057978345794340" rel="publisher" />
-    <!--[if lt IE 9]><script src="static/html5shiv.min.js"></script><![endif]-->
+    <meta name="author" content="Mufri">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-<!-- Content recommendations for mobile websites -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
-    po.src = "https://apis.google.com/js/plusone.js?publisherid=100315057978345794340";
-    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
+    <title>Authenticator Plus</title>
 
-</head>
-  <body data-target=".content-nav" itemscope itemtype="http://schema.org/Article">
-    <header>
-      <div class="container" itemscope itemtype="http://schema.org/Product">
-        <meta itemprop="name" content="Authenticator Plus">
-        <div class="row">
-          <div class="span5" itemprop="brand" itemscope itemtype="http://schema.org/Brand">
-            <h1 itemprop="name">
-              <a href="http://authenticatorplus.com">
-                <img itemprop="logo" src="https://lh6.ggpht.com/GxO-YPkdkzXwkpdThf-YLgFH0hx1re0M_HRwJfnJdD0NAdGQDy7OOeldDxLIx3Kotcw=w300" width="60" height="60">
-              </a>  
-              Authenticator Plus              
-            </h1>
-          </div>
-          <div class="span7">
-            <menu>
-              <ul>
-                <li><a href="http://blog.authenticatorplus.com/" data-title="Go to Blog" class="menu">Blog</a></li>
-                <li><a href="http://mufri.com" data-title="Go to Mufri.com" class="menu">Mufri</a></li>
-              </ul>
-            </menu>
-          </div>
-      </div>
-    </header>
-    <section id="subtitle">
-      <div class="container">
-        <div class="row">
-          <div class="span12">
-            <h2>Better way to manage <strong>2-factor</strong> enabled accounts</h2>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="body">
-      <div class="container">
-        <div class="row">
-          <div class="span9">
-            <h3 id="introduction">{{page.title}}</h3>
-            <p itemprop="description">{{content}}</p>
-          </div>
-          <div class="span3">
-            <div class="content-nav" data-spy="affix" data-offset-top="80">
-              <ul class="nav nav-tabs nav-stacked primary">
-              <div class="g-page" data-href="https://plus.google.com/100315057978345794340" data-width="215" data-layout="landscape" data-rel="publisher"></div>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-                <li><a href="http://authenticatorplus.com">Home</a></li>
-                <li><a href="http://authenticatorplus.com#download">Download</a></li>
-                <li><a href="http://support.authenticatorplus.com">Support Page</a></li>
-                <li><a href="https://plus.google.com/100315057978345794340" rel="publisher">Google+</a></li>
-              </ul>
-              <ul class="nav nav-pills nav-stacked secondary">
-                <li><a href="http://authenticatorplus.com/privacy.html">Privacy Policy</a></li>
-                <li><a href="http://authenticatorplus.com/terms.html">Terms of Service</a></li>
-              </ul>
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    
+<!--
+meta info
+-->
+
+    <link href="https://plus.google.com/+Authenticatorplus" rel="publisher" />
+
+
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#navigation">
+
+    <!-- Fixed navbar -->
+        <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><b>Authenticator Plus</b></a>
             </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="http://authenticatorplus.com" class="smothscroll">Home</a></li>
+                <li class="active"><a href="#desc" class="smothscroll">{{page.title}}</a></li>
+                <li><a href="#contact" class="smothScroll">Contact</a></li>
+                <li><a href="http://blog.authenticatorplus.com">Blog</a></li>
+                <li><a href="http://support.authenticatorplus.com">Support</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
           </div>
         </div>
-        <div class="row">
-          <div class="span12 logo">
-            <a href="http://mufri.com">Mufri.com</a>
-          </div>
+
+    <section id="desc" name="desc"></section>
+    <!-- INTRO WRAP -->
+    <div id="intro">
+        <div class="container">
+            <div class="row centered">
+                {{content}}
+            </div>
+            <br>
+            <hr>
+        </div> <!--/ .container -->
+    </div><!--/ #introwrap -->
+    
+   
+
+
+    <section id="contact" name="contact"></section>
+    <div id="footerwrap">
+        <div class="container">
+            <div class="col-lg-5">
+                <h3>Address</h3>
+                <p>
+                Mufri,<br/>
+                Bangalore,<br/>
+                India
+                </p>
+            </div>
+            
+            <div class="col-lg-7">
+                <h3>Drop Us A Line</h3>
+                <a href="mailto:support@authenticatorplus.com" target="_top">support@authenticatorplus.com</a>
+                <br>
+                <br>
+
+                <!-- Place this code where you want the badge to render. -->
+                <a href="https://plus.google.com/+Authenticatorplus?prsrc=3"
+                   rel="publisher" target="_top" style="text-decoration:none;">
+                <img src="https://ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
+                </a>
+
+                &nbsp;&nbsp;
+
+                <a href="https://www.facebook.com/pages/Authenticator-Plus/1380473758871544"
+                   rel="publisher" target="_top" style="text-decoration:none;">
+                <img src="assets/img/face.png" alt="Facebook" style="border:0;width:32px;height:32px;"/>
+                </a>
+
+                &nbsp;&nbsp;
+
+                <a href="http://twitter.com/mufriapps"
+                   rel="publisher" target="_top" style="text-decoration:none;">
+                <img src="assets/img/twitter.png" alt="Twitter" style="border:0;width:32px;height:32px;"/>
+                </a>
+            </div>
         </div>
-      </div>
-    </section>
+    </div>
+    <div id="c">
+        <div class="container footer">
+<p>
+        <span class="left">
+            Theme by <a href="http://www.blacktie.co/">blacktie</a>, 
+            Icons by  <a href="https://www.iconfinder.com/icons/3283/preferences_settings_tools_icon#size=128">Everaldo Coelho </a>,  <a href="https://www.iconfinder.com/iconsets/i-Love-Icons#readme">Svengraph</a>
+        </span>
 
-<span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-<meta itemprop="price" content="2.99$"></span>
+        <span class="right"> Copyright &copy; <a href="http://mufri.com">mufri.com</a></span>
+        <span class="right"><a href="http://authenticatorplus.com/privacy.html">Privacy</a> | </span>
+        <span class="right"><a href="http://authenticatorplus.com/terms.html">Terms of Service</a> | </span>
+   </p>      
+        
 
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="static/bootstrap.min.js"></script>
-    <script src="static/jquery.smooth-scroll.min.js"></script>
-    <script src="static/jquery-maven-artifact.min.js"></script>
-    <script src="static/prettify.js"></script>
-    <script type="text/javascript">
-      $(function() {
-        // Syntax highlight code blocks.
-        prettyPrint();
-
-        // Spy on scroll position for real-time updating of current section.
-        $('body').scrollspy();
-
-        // Use smooth-scroll for internal links.
-        $('a').smoothScroll();
-
-        // Enable tooltips on the header nav image items.
-        $('.menu').tooltip({
-          placement: 'bottom',
-          trigger: 'hover',
-          container: 'body',
-          delay: {
-            show: 500,
-            hide: 0
-          }
-        });
+        </div>
+    </div>
+  
 
 
-      });
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
 
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+
+    <script src="assets/js/bootstrap.js"></script>
+    <script>
+    $('.carousel').carousel({
+      interval: 3500
+    })
     </script>
-
-
-
-<script src="http://malsup.github.com/jquery.cycle2.js"></script>
 
 <script>
 // Include the UserVoice JavaScript SDK (only needed once on a page)
@@ -138,7 +153,7 @@ UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script
 
 // Set colors
 UserVoice.push(['set', {
-  accent_color: '#808283',
+  accent_color: '#448dd6',
   trigger_color: 'white',
   trigger_background_color: '#448dd6'
 }]);
@@ -169,35 +184,6 @@ UserVoice.push(['addTrigger', { mode: 'contact', trigger_position: 'bottom-right
 
 // Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
 UserVoice.push(['autoprompt', {}]);
-</script>
-
-
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-44491916-3', 'authenticatorplus.com');
-  ga('require', 'linkid', 'linkid.js');
-  ga('send', 'pageview');
-
 </script>
 
 
