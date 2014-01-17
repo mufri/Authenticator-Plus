@@ -1,192 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Better way to manage 2-factor enabled accounts">
-    <meta name="author" content="Mufri">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-    <title>Authenticator Plus</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-    
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/smoothscroll.js"></script>
-    
-<!--
-meta info
--->
-
-    <link href="https://plus.google.com/+Authenticatorplus" rel="publisher" />
-
-
-  </head>
-
-  <body data-spy="scroll" data-offset="0" data-target="#navigation">
-
-    <!-- Fixed navbar -->
-        <div id="navigation" class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#"><b>Authenticator Plus</b></a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="http://authenticatorplus.com" class="smothscroll">Home</a></li>
-                <li class="active"><a href="#desc" class="smothscroll">{{page.title}}</a></li>
-                <li><a href="#contact" class="smothScroll">Contact</a></li>
-                <li><a href="http://blog.authenticatorplus.com">Blog</a></li>
-                <li><a href="http://support.authenticatorplus.com">Support</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
-        </div>
-
-    <section id="desc" name="desc"></section>
-    <!-- INTRO WRAP -->
-    <div id="intro">
-        <div class="container">
-            <div class="row centered">
-                {{content}}
-            </div>
-            <br>
-            <hr>
-        </div> <!--/ .container -->
-    </div><!--/ #introwrap -->
-    
-   
-
-
-    <section id="contact" name="contact"></section>
-    <div id="footerwrap">
-        <div class="container">
-            <div class="col-lg-5">
-                <h3>Address</h3>
-                <p>
-                Mufri,<br/>
-                Bangalore,<br/>
-                India
-                </p>
-            </div>
-            
-            <div class="col-lg-7">
-                <h3>Drop Us A Line</h3>
-                <a href="mailto:support@authenticatorplus.com" target="_top">support@authenticatorplus.com</a>
-                <br>
-                <br>
-
-                <!-- Place this code where you want the badge to render. -->
-                <a href="https://plus.google.com/+Authenticatorplus?prsrc=3"
-                   rel="publisher" target="_top" style="text-decoration:none;">
-                <img src="https://ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
-                </a>
-
-                &nbsp;&nbsp;
-
-                <a href="https://www.facebook.com/pages/Authenticator-Plus/1380473758871544"
-                   rel="publisher" target="_top" style="text-decoration:none;">
-                <img src="assets/img/face.png" alt="Facebook" style="border:0;width:32px;height:32px;"/>
-                </a>
-
-                &nbsp;&nbsp;
-
-                <a href="http://twitter.com/mufriapps"
-                   rel="publisher" target="_top" style="text-decoration:none;">
-                <img src="assets/img/twitter.png" alt="Twitter" style="border:0;width:32px;height:32px;"/>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div id="c">
-        <div class="container footer">
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<meta name=description content="Better way to manage 2-factor enabled accounts">
+<meta name=author content=Mufri>
+<link rel="shortcut icon" href=assets/ico/favicon.png>
+<title>Authenticator Plus</title>
+<link href=assets/css/bootstrap.css rel=stylesheet>
+<link href=assets/css/main.css rel=stylesheet>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel=stylesheet type=text/css>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel=stylesheet type=text/css>
+<script src=assets/js/jquery-1.10.2.min.js></script>
+<script src=assets/js/smoothscroll.min.js></script>
+<link href=https://plus.google.com/+Authenticatorplus rel=publisher />
+</head>
+<body data-spy=scroll data-offset=0 data-target=#navigation>
+<div id=navigation class="navbar navbar-default navbar-fixed-top">
+<div class=container>
+<div class=navbar-header>
+<button type=button class=navbar-toggle data-toggle=collapse data-target=.navbar-collapse>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+<a class=navbar-brand href=#><b>Authenticator Plus</b></a>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li><a href=http://authenticatorplus.com class=smothscroll>Home</a></li>
+<li class=active><a href=#desc class=smothscroll>{{page.title}}</a></li>
+<li><a href=#contact class=smothScroll>Contact</a></li>
+<li><a href=http://blog.authenticatorplus.com>Blog</a></li>
+<li><a href=http://support.authenticatorplus.com>Support</a></li>
+</ul>
+</div>
+</div>
+</div>
+<section id=desc name=desc></section>
+<div id=intro>
+<div class=container>
+<div class="row centered">
+{{content}}
+</div>
+<br>
+<hr>
+</div>
+</div>
+<section id=contact name=contact></section>
+<div id=footerwrap>
+<div class=container>
+<div class=col-lg-5>
+<h3>Address</h3>
 <p>
-        <span class="left">
-            Theme by <a href="http://www.blacktie.co/">blacktie</a>, 
-            Icons by  <a href="https://www.iconfinder.com/icons/3283/preferences_settings_tools_icon#size=128">Everaldo Coelho </a>,  <a href="https://www.iconfinder.com/iconsets/i-Love-Icons#readme">Svengraph</a>
-        </span>
-
-        <span class="right"> Copyright &copy; <a href="http://mufri.com">mufri.com</a></span>
-        <span class="right"><a href="http://authenticatorplus.com/privacy.html">Privacy</a> | </span>
-        <span class="right"><a href="http://authenticatorplus.com/terms.html">Terms of Service</a> | </span>
-   </p>      
-        
-
-        </div>
-    </div>
-  
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-
-    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
-
-    <script src="assets/js/bootstrap.js"></script>
-    <script>
-    $('.carousel').carousel({
-      interval: 3500
-    })
-    </script>
-
-<script>
-// Include the UserVoice JavaScript SDK (only needed once on a page)
-UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/gnakMjnZIYZd6SGwbredg.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
-
-//
-// UserVoice Javascript SDK developer documentation:
-// https://www.uservoice.com/o/javascript-sdk
-//
-
-// Set colors
-UserVoice.push(['set', {
-  accent_color: '#448dd6',
-  trigger_color: 'white',
-  trigger_background_color: '#448dd6'
-}]);
-
-// Identify the user and pass traits
-// To enable, replace sample data with actual user traits and uncomment the line
-UserVoice.push(['identify', {
-  //email:      'john.doe@example.com', // User’s email address
-  //name:       'John Doe', // User’s real name
-  //created_at: 1364406966, // Unix timestamp for the date the user signed up
-  //id:         123, // Optional: Unique id of the user (if set, this should not change)
-  //type:       'Owner', // Optional: segment your users by type
-  //account: {
-  //  id:           123, // Optional: associate multiple users with a single account
-  //  name:         'Acme, Co.', // Account name
-  //  created_at:   1364406966, // Unix timestamp for the date the account was created
-  //  monthly_rate: 9.99, // Decimal; monthly rate of the account
-  //  ltv:          1495.00, // Decimal; lifetime value of the account
-  //  plan:         'Enhanced' // Plan name for the account
-  //}
-}]);
-
-// Add default trigger to the bottom-right corner of the window:
-UserVoice.push(['addTrigger', { mode: 'contact', trigger_position: 'bottom-right' }]);
-
-// Or, use your own custom trigger:
-//UserVoice.push(['addTrigger', '#id', { mode: 'contact' }]);
-
-// Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
-UserVoice.push(['autoprompt', {}]);
-</script>
-
-
-
-  </body>
+Mufri,<br/>
+Bangalore,<br/>
+India
+</p>
+</div>
+<div class=col-lg-7>
+<h3>Drop Us A Line</h3>
+<a href=mailto:support@authenticatorplus.com target=_top>support@authenticatorplus.com</a>
+<br>
+<br>
+<a href="https://plus.google.com/+Authenticatorplus?prsrc=3" rel=publisher target=_top style=text-decoration:none>
+<img src=https://ssl.gstatic.com/images/icons/gplus-32.png alt=Google+ style="border:0;width:32px;height:32px"/>
+</a>
+&nbsp;&nbsp;
+<a href=https://www.facebook.com/pages/Authenticator-Plus/1380473758871544 rel=publisher target=_top style=text-decoration:none>
+<img src=assets/img/face.png alt=Facebook style="border:0;width:32px;height:32px"/>
+</a>
+&nbsp;&nbsp;
+<a href=http://twitter.com/mufriapps rel=publisher target=_top style=text-decoration:none>
+<img src=assets/img/twitter.png alt=Twitter style="border:0;width:32px;height:32px"/>
+</a>
+</div>
+</div>
+</div>
+<div id=c>
+<div class="container footer">
+<p>
+<span class=left>
+Theme by <a href=http://www.blacktie.co/>blacktie</a>,
+Icons by <a href="https://www.iconfinder.com/icons/3283/preferences_settings_tools_icon#size=128">Everaldo Coelho </a>, <a href=https://www.iconfinder.com/iconsets/i-Love-Icons#readme>Svengraph</a>
+</span>
+<span class=right> Copyright &copy; <a href=http://mufri.com>mufri.com</a></span>
+<span class=right><a href=http://authenticatorplus.com/privacy.html>Privacy</a> | </span>
+<span class=right><a href=http://authenticatorplus.com/terms.html>Terms of Service</a> | </span>
+</p>
+</div>
+</div>
+<script src=http://malsup.github.io/min/jquery.cycle2.min.js></script>
+<script src=assets/js/bootstrap.js></script>
+<script>$(".carousel").carousel({interval:3500});</script>
+<script>UserVoice=window.UserVoice||[];(function(){var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src="//widget.uservoice.com/gnakMjnZIYZd6SGwbredg.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})();UserVoice.push(["set",{accent_color:"#448dd6",trigger_color:"white",trigger_background_color:"#448dd6"}]);UserVoice.push(["identify",{}]);UserVoice.push(["addTrigger",{mode:"contact",trigger_position:"bottom-right"}]);UserVoice.push(["autoprompt",{}]);</script>
+</body>
 </html>
