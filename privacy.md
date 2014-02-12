@@ -6,9 +6,9 @@
 
     Authenticator Plus Privacy Policy
     
-    Version 1.0 [DRAFT 01]
+    Version 1.1
     
-    Effective on Dec 5, 2013
+    Effective on Feb 12, 2014
     
     This privacy statement describes how Mufri collects and uses the personal information you provide. It also describes the choices available to you regarding our use of your personal information and how you can access and update this information.
     
@@ -18,6 +18,13 @@
     We may collect the following personal information from you:
     
         * Device Information and Email address (only when you contact us through menus provided)
+        
+    Services we use:
+    
+    In addtion to what we collect, we use following services to improve the service we provide, you can refer thier privacy policies separately
+    
+        * Crashlytics - http://try.crashlytics.com/terms/
+        * Google Analytics - https://www.google.com/intl/en/policies/privacy/
     
     
     We may use this information to:
