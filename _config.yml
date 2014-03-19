@@ -2,3 +2,4 @@ markdown: rdiscount
 pygments: true
 permalink: /:title
 domain: authenticatorplus.com
+baseurl: /mufri.github.io/authenticator-plus-blog
