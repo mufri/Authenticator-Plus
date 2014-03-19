@@ -2,4 +2,4 @@ markdown: rdiscount
 pygments: true
 permalink: /:title
 domain: authenticatorplus.com
-baseurl: {{ site.github.url }}
+baseurl: site.github.url
