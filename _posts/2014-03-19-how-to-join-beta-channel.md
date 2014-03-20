@@ -1,5 +1,5 @@
 ---
- layout: post
+ layout: default
  title: How to join and download beta release?
  category: faq
 ---

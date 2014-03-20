@@ -6,9 +6,9 @@
 <meta name=description content="Better way to manage 2-factor enabled accounts">
 <meta name=author content=Mufri>
 <link rel="shortcut icon" href=assets/ico/favicon.png>
-<title>Authenticator Plus</title>
+<title>{{ page.title }}</title>
 <link href={{ site.baseurl }}/assets/css/bootstrap.min.css rel=stylesheet>
-<link href={{ site.baseurl }}/assets/css/main.css rel=stylesheet>
+<link href={{ site.baseurl }}/assets/css/main.min.css rel=stylesheet>
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel=stylesheet type=text/css>
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel=stylesheet type=text/css>
 <script src={{ site.baseurl }}/assets/js/jquery-1.10.2.min.js></script>
@@ -28,11 +28,10 @@
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav">
-<li class=active><a href=#desc class=smothscroll>{{page.title}}</a></li>
 <li><a href=#contact class=smothScroll>Contact</a></li>
 <li><a href=http://blog.authenticatorplus.com>Blog</a></li>
 <li><a href=http://support.authenticatorplus.com>Support</a></li>
-<li><a href=http://faq.authenticatorplus.com>FAQ</a></li>
+{% if page.categories[0] != "faq"  %} <li><a href=http://faq.authenticatorplus.com>FAQ</a></li>{% endif %}
 </ul>
 </div>
 </div>
@@ -40,8 +39,16 @@
 <section id=desc name=desc></section>
 <div id=intro>
 <div class=container>
-<div class="row centered">
+<div class="row">
+
+<h1>{% if page.categories && page.categories[0] != empty %} <a href={{ site.baseurl }}/faq.html>FAQ</a> -> {% endif %}{{page.title}}</h1>
+<p>
 {{content}}
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 </div>
 <br>
 <hr>
@@ -68,15 +75,15 @@ India
 </a>
 &nbsp;&nbsp;
 <a href=https://www.facebook.com/authenticatorplus rel=publisher target=_top style=text-decoration:none>
-<img src=assets/img/face.png width=32 height=32 alt=Facebook style="border:0;width:32px;height:32px"/>
+<img src={{ site.baseurl }}/assets/img/face.png width=32 height=32 alt=Facebook style="border:0;width:32px;height:32px"/>
 </a>
 &nbsp;&nbsp;
 <a href=https://twitter.com/AuthPlus rel=publisher target=_top style=text-decoration:none>
-<img src=assets/img/twitter.png width=32 height=32 alt=Twitter style="border:0"/>
+<img src={{ site.baseurl }}/assets/img/twitter.png width=32 height=32 alt=Twitter style="border:0"/>
 </a>
 &nbsp;&nbsp;
 <a href=http://www.youtube.com/user/authenticatorplus rel=publisher target=_top style=text-decoration:none>
-<img src=assets/img/youtube.png width=45 height=32 alt=YouTube style="border:0"/>
+<img src={{ site.baseurl }}/assets/img/youtube.png width=45 height=32 alt=YouTube style="border:0"/>
 </a>
 </div>
 </div>
@@ -89,14 +96,14 @@ Theme by <a href=http://www.blacktie.co/>blacktie</a>,
 Icons by <a href="https://www.iconfinder.com/icons/3283/preferences_settings_tools_icon#size=128">Everaldo Coelho </a>, <a href=https://www.iconfinder.com/iconsets/i-Love-Icons#readme>Svengraph</a>
 </span>
 <span class=right>
-<a href=http://changelog.authenticatorplus.com>Release Notes</a> | <a href=http://authenticatorplus.com/terms.html>Terms of Service</a> | <a href=http://authenticatorplus.com/privacy.html>
+<a href=http://changelog.authenticatorplus.com>Release Notes</a> | <a href=http://{{ site.baseurl }}/terms.html>Terms of Service</a> | <a href={{ site.baseurl }}//privacy.html>
 &nbsp;Privacy</a> | &nbsp;<a href=http://mufri.com>Copyright &copy; mufri.com</a>
 </span>
 </p>
 </div>
 </div>
 
-<script src=assets/js/bootstrap.min.js></script>
+<script src={{ site.baseurl }}/assets/js/bootstrap.min.js></script>
 <script>$(".carousel").carousel({interval:3500});</script>
 <script>UserVoice=window.UserVoice||[];(function(){var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src="//widget.uservoice.com/gnakMjnZIYZd6SGwbredg.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})();UserVoice.push(["set",{accent_color:"#448dd6",trigger_color:"white",trigger_background_color:"#448dd6"}]);UserVoice.push(["identify",{}]);UserVoice.push(["addTrigger",{mode:"contact",trigger_position:"bottom-right"}]);UserVoice.push(["autoprompt",{}]);</script>
 </body>

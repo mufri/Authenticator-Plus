@@ -1,6 +1,8 @@
 ---
- layout: post
+ layout: default
  title: FAQ
+ category: page
+
 ---
 
 <ul>
