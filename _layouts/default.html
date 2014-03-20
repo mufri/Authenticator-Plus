@@ -5,8 +5,8 @@
 <meta name=viewport content="width=device-width, initial-scale=1.0">
 <meta name=description content="Better way to manage 2-factor enabled accounts">
 <meta name=author content=Mufri>
-<link rel="shortcut icon" href=assets/ico/favicon.png>
 <title>{{ page.title }}</title>
+<link rel="shortcut icon" href={{ site.baseurl }}/assets/img/favicon.png>
 <link href={{ site.baseurl }}/assets/css/bootstrap.min.css rel=stylesheet>
 <link href={{ site.baseurl }}/assets/css/main.min.css rel=stylesheet>
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel=stylesheet type=text/css>
@@ -41,7 +41,7 @@
 <div class=container>
 <div class="row">
 
-<h1>{% if page.categories && page.categories[0] != empty %} <a href={{ site.baseurl }}/faq.html>FAQ</a> -> {% endif %}{{page.title}}</h1>
+<h4>{% if page.categories && page.categories[0] != empty %} <a href={{ site.baseurl }}/faq.html> <- FAQ </a> {% endif %}<b>{{page.title}}</b></h4>
 <p>
 {{content}}
 </p>
