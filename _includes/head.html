@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<!-- http://t.co/dKP3o1e -->
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name=description content="Better way to manage 2-factor enabled accounts">
+<meta name=author content={{ site.author }}>
+<link rel="shortcut icon" href={{root_url}}/assets/img/favicon.png>
+<title>{% if page.title %}{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} - {% endif %}{{ site.title }}</title>
+{% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
+<meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
+{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+<link rel="canonical" href="{{ canonical }}">
+<link href=assets/css/bootstrap.min.css rel=stylesheet>
+<link href=assets/css/main.min.css rel=stylesheet>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel=stylesheet type=text/css>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel=stylesheet type=text/css>
+<script src=assets/js/jquery-1.10.2.min.js></script>
+<script src=assets/js/smoothscroll.min.js></script>
+<link href=https://plus.google.com/+Authenticatorplus rel=publisher />
+</head>

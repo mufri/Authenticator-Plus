@@ -3,3 +3,8 @@ pygments: true
 permalink: /docs/:title
 domain: authenticatorplus.com
 baseurl: http://authenticatorplus.com
+
+title: Authenticator Plus
+subtitle: Better way to manage 2-factor enabled accounts
+author: Mufri
+description: Authenticator Plus is one-time passcode generator for two-factor enabled accounts, easiest way to manage all your two-factor authentication account without hassles.
