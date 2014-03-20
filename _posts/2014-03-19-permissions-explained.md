@@ -1,8 +1,4 @@
 ---
-published: false
----
-
----
  layout: default
  title: What are all Android permissions Authenticator Plus uses?
  category: faq
