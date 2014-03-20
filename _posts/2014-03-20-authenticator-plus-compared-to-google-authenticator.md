@@ -20,5 +20,5 @@ However Authenticator Plus excels in few places, Refer below comparison.
 | Customization | No | Allows account reorder, logo for accounts and themes |
 | Import | No | Allows import from Google Authenticator data and Authenticator Plus data|
 | Portability | No | Data can be exported as QR code and HTML (included inside encrypted ZIP for security)|
-| Security | No | Accounts are encrypted and stored|
+| Security | No | Accounts are encrypted with 256-bit AES encryptiong and stored|
 | PIN lock | No | Yes |
