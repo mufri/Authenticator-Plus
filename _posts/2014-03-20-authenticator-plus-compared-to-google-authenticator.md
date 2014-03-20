@@ -6,14 +6,16 @@
  keywords: authenticator plus compare google authenticator
 ---
 
-Authenticator Plus is based on Google Authenticator source, so basic logic behind computing PIN is same, however Authenticator Plus excels in few places. Refer below comparison.
+Authenticator Plus is based on Google Authenticator source, so basic logic behind computing PIN is same.
 
-| ________ Features ________ | ________Google Authenticator________ | ________Authenticator Plus________ |
+However Authenticator Plus excels in few places, Refer below comparison.
+
+
+| Features =============> | Google Authenticator ===>  | Authenticator Plus |
 | :------ | :------------------- | :------------------|
 | PIN computation | Same | Same |
 | Adding Accounts  | Same | Same |
-| Moving to new device | Supports only Google accounts | Supports all accounts |
-| Backup & Restore | No | Inbuilt support |
+| Backup & Restore       | No | Inbuilt support |
 | Accounts sync | No | Accounts can be synced across phones, tablets and Kindle fire|
 | Customization | No | Allows account reorder, logo for accounts and themes |
 | Import | No | Allows import from Google Authenticator data and Authenticator Plus data|
