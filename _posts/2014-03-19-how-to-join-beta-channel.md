@@ -2,6 +2,8 @@
  layout: default
  title: How to join and download beta release?
  category: faq
+ description: steps to join authenticator pluse beta channel
+ keywords: authenticator plus beta channel
 ---
 
 1. Purchase the app in [playstore](https://play.google.com/store/apps/details?id=com.mufri.authenticatorplus "Google play store") 

@@ -2,6 +2,8 @@
  layout: default
  title: What are all permissions Authenticator Plus use?
  category: faq
+ description: android permissions explained for authenticator plus
+ keywords: authenticator plus android permissions
 ---
 
 Authencitaor Plus needs below permissions to be able to sync its data seamlessly with other devices. A detailed breakdown of each permission request and why we need it is below. 

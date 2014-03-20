@@ -2,6 +2,8 @@
  layout: default
  title: Password mismatch or Corrupted data.
  category: faq
+ description: solution to password mismatch corrupted data error
+ keywords: authenticator plus Password mismatch or Corrupted data solution
 ---
 
 This error can happen due to master password mismatch or data is corrupted in dropbox account.

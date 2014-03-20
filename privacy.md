@@ -1,6 +1,8 @@
 ---
  layout: default
  title: Privacy Policy
+ description: Authenticator Plus Privacy Policy
+ keywords: Privacy Policy
 ---
  
 

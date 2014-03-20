@@ -1,6 +1,8 @@
 ---
  layout: default
  title: Terms of Service
+ description: Authenticator Plus Terms of Service
+ keywords: Terms of Service
 ---
 
 

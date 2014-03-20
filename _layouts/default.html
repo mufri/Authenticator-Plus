@@ -1,24 +1,4 @@
-<!--
-<!DOCTYPE html>
-<html lang=en>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width, initial-scale=1.0">
-<meta name=description content="Better way to manage 2-factor enabled accounts">
-<meta name=author content=Mufri>
-<title>{{ page.title }}</title>
-<link rel="shortcut icon" href={{ site.baseurl }}/assets/img/favicon.png>
-<link href={{ site.baseurl }}/assets/css/bootstrap.min.css rel=stylesheet>
-<link href={{ site.baseurl }}/assets/css/main.min.css rel=stylesheet>
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel=stylesheet type=text/css>
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel=stylesheet type=text/css>
-<script src={{ site.baseurl }}/assets/js/jquery-1.10.2.min.js></script>
-<script src={{ site.baseurl }}/assets/js/smoothscroll.min.js></script>
-<link href=https://plus.google.com/+Authenticatorplus rel=publisher />
-</head>
--->
 {% include head.html %}
-<body data-spy=scroll data-offset=0 data-target=#navigation>
 <div id=navigation class="navbar navbar-default navbar-fixed-top">
 <div class=container>
 <div class=navbar-header>
@@ -27,14 +7,14 @@
 <span class=icon-bar></span>
 <span class=icon-bar></span>
 </button>
-<a class=navbar-brand href=http://authenticatorplus.com><b>Authenticator Plus</b></a>
+<a class=navbar-brand href={{site.baseurl}}/><b>Authenticator Plus</b></a>
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav">
 <li><a href=#contact class=smothScroll>Contact</a></li>
 <li><a href=http://blog.authenticatorplus.com>Blog</a></li>
 <li><a href=http://support.authenticatorplus.com>Support</a></li>
-{% if page.categories[0] != "faq"  %} <li><a href=http://faq.authenticatorplus.com>FAQ</a></li>{% endif %}
+{% if page.categories[0] != "faq"  %} <li><a href={{baseurl}}/faq>FAQ</a></li>{% endif %}
 </ul>
 </div>
 </div>
@@ -57,57 +37,4 @@
 <hr>
 </div>
 </div>
-<section id=contact name=contact></section>
-<div id=footerwrap>
-<div class=container>
-<div class=col-lg-5>
-<h3>Address</h3>
-<p>
-Mufri,<br/>
-Bangalore,<br/>
-India
-</p>
-</div>
-<div class=col-lg-7>
-<h3>Drop Us A Line</h3>
-<a href=mailto:support@authenticatorplus.com target=_top>support@authenticatorplus.com</a>
-<br>
-<br>
-<a href="https://plus.google.com/+Authenticatorplus?prsrc=3" rel=publisher target=_top style=text-decoration:none>
-<img src=https://ssl.gstatic.com/images/icons/gplus-32.png width=32 height=32 alt=Google+ style="border:0;width:32px;height:32px"/>
-</a>
-&nbsp;&nbsp;
-<a href=https://www.facebook.com/authenticatorplus rel=publisher target=_top style=text-decoration:none>
-<img src={{ site.baseurl }}/assets/img/face.png width=32 height=32 alt=Facebook style="border:0;width:32px;height:32px"/>
-</a>
-&nbsp;&nbsp;
-<a href=https://twitter.com/AuthPlus rel=publisher target=_top style=text-decoration:none>
-<img src={{ site.baseurl }}/assets/img/twitter.png width=32 height=32 alt=Twitter style="border:0"/>
-</a>
-&nbsp;&nbsp;
-<a href=http://www.youtube.com/user/authenticatorplus rel=publisher target=_top style=text-decoration:none>
-<img src={{ site.baseurl }}/assets/img/youtube.png width=45 height=32 alt=YouTube style="border:0"/>
-</a>
-</div>
-</div>
-</div>
-<div id=c>
-<div class="container footer">
-<p>
-<span class=left>
-Theme by <a href=http://www.blacktie.co/>blacktie</a>,
-Icons by <a href="https://www.iconfinder.com/icons/3283/preferences_settings_tools_icon#size=128">Everaldo Coelho </a>, <a href=https://www.iconfinder.com/iconsets/i-Love-Icons#readme>Svengraph</a>
-</span>
-<span class=right>
-<a href=http://changelog.authenticatorplus.com>Release Notes</a> | <a href=http://{{ site.baseurl }}/terms.html>Terms of Service</a> | <a href={{ site.baseurl }}//privacy.html>
-&nbsp;Privacy</a> | &nbsp;<a href=http://mufri.com>Copyright &copy; mufri.com</a>
-</span>
-</p>
-</div>
-</div>
-
-<script src={{ site.baseurl }}/assets/js/bootstrap.min.js></script>
-<script>$(".carousel").carousel({interval:3500});</script>
-<script>UserVoice=window.UserVoice||[];(function(){var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src="//widget.uservoice.com/gnakMjnZIYZd6SGwbredg.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})();UserVoice.push(["set",{accent_color:"#448dd6",trigger_color:"white",trigger_background_color:"#448dd6"}]);UserVoice.push(["identify",{}]);UserVoice.push(["addTrigger",{mode:"contact",trigger_position:"bottom-right"}]);UserVoice.push(["autoprompt",{}]);</script>
-</body>
-</html>
+{% include footer.html %}

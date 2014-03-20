@@ -1,21 +1,12 @@
-<!DOCTYPE html>
-<html lang=en>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width, initial-scale=1.0">
-<meta name=description content="Better way to manage 2-factor enabled accounts">
-<meta name=author content=Mufri>
-<link rel="shortcut icon" href=assets/img/favicon.png>
-<title>Authenticator Plus</title>
-<link href=assets/css/bootstrap.min.css rel=stylesheet>
-<link href=assets/css/main.min.css rel=stylesheet>
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel=stylesheet type=text/css>
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel=stylesheet type=text/css>
-<script src=assets/js/jquery-1.10.2.min.js></script>
-<script src=assets/js/smoothscroll.min.js></script>
-<link href=https://plus.google.com/+Authenticatorplus rel=publisher />
-</head>
-<body data-spy=scroll data-offset=0 data-target=#navigation>
+---
+ layout: null
+ title: Authenticator Plus
+ description: Authenticator Plus is one-time passcode generator for two-factor enabled accounts, easiest way to manage all your two-factor authentication account without hassles.
+ keywords: two-factor authentication account
+---
+
+{% include head.html %}
+
 <div id=navigation class="navbar navbar-default navbar-fixed-top">
 <div class=container>
 <div class=navbar-header>
@@ -34,7 +25,7 @@
 <li><a href=#contact class=smothScroll>Contact</a></li>
 <li><a href=http://blog.authenticatorplus.com>Blog</a></li>
 <li><a href=http://support.authenticatorplus.com>Support</a></li>
-<li><a href=http://authenticatorplus.com/faq.html>FAQ</a></li>
+<li><a href=/faq>FAQ</a></li>
 
 </ul>
 </div>
@@ -66,9 +57,14 @@
 <div id=intro>
 <div class=container>
 <div class="row centered">
+<p>&nbsp;</p>
 <h1>Downloads</h1>
+<h4>Available for all Android Phones / Tablets and Kindle fire devices.</h4>
+<p>&nbsp;</p>
+
 <br>
 <br>
+
 <div class=col-lg-4>
 <a href="https://play.google.com/store/apps/details?id=com.mufri.authenticatorplus">
 <img alt="Get it on Google Play" src=assets/img/play.png width=172 height=60/>
@@ -83,14 +79,19 @@
 <a href=http://authenticatorplus.uservoice.com/knowledgebase/articles/292484-how-to-install-the-latest-beta->
 <img src=assets/img/beta.png width=172 height=60 alt="Join beta channel">
 </a>
+
 </div>
+<p>&nbsp;</p>
+<br/>
+<p>
+<h4>Join beta channel to try out new featuers much before public release.</h4>
+</p>
 </div>
+
 <br>
 <br>
-<br>
-<br>
-<br>
-<hr>
+<p>&nbsp;</p>
+
 </div>
 </div>
 
@@ -218,57 +219,6 @@ Import from Google Authenticator
 </div>
 </div>
 </div>
-<section id=contact name=contact></section>
-<div id=footerwrap>
-<div class=container>
-<div class=col-lg-5>
-<h3>Address</h3>
-<p>
-Mufri,<br/>
-Bangalore,<br/>
-India
-</p>
-</div>
-<div class=col-lg-7>
-<h3>Drop Us A Line</h3>
-<a href=mailto:support@authenticatorplus.com target=_top>support@authenticatorplus.com</a>
-<br>
-<br>
-<a href="https://plus.google.com/+Authenticatorplus?prsrc=3" rel=publisher target=_top style=text-decoration:none>
-<img src=https://ssl.gstatic.com/images/icons/gplus-32.png width=32 height=32 alt=Google+ style="border:0;width:32px;height:32px"/>
-</a>
-&nbsp;&nbsp;
-<a href=https://www.facebook.com/authenticatorplus rel=publisher target=_top style=text-decoration:none>
-<img src=assets/img/face.png width=32 height=32 alt=Facebook style="border:0;width:32px;height:32px"/>
-</a>
-&nbsp;&nbsp;
-<a href=https://twitter.com/AuthPlus rel=publisher target=_top style=text-decoration:none>
-<img src=assets/img/twitter.png width=32 height=32 alt=Twitter style="border:0"/>
-</a>
-&nbsp;&nbsp;
-<a href=http://www.youtube.com/user/authenticatorplus rel=publisher target=_top style=text-decoration:none>
-<img src=assets/img/youtube.png width=45 height=32 alt=YouTube style="border:0"/>
-</a>
-</div>
-</div>
-</div>
-<div id=c>
-<div class="container footer">
-<p>
-<span class=left>
-Theme by <a href=http://www.blacktie.co/>blacktie</a>,
-Icons by <a href="https://www.iconfinder.com/icons/3283/preferences_settings_tools_icon#size=128">Everaldo Coelho </a>, <a href=https://www.iconfinder.com/iconsets/i-Love-Icons#readme>Svengraph</a>
-</span>
-<span class=right>
-<a href=http://changelog.authenticatorplus.com>Release Notes</a> | <a href=http://authenticatorplus.com/terms.html>Terms of Service</a> | <a href=http://authenticatorplus.com/privacy.html>
-&nbsp;Privacy</a> | &nbsp;<a href=http://www.mufri.com>Copyright &copy; mufri.com</a>
-</span>
-</p>
-</div>
-</div>
 <script src=http://malsup.github.io/min/jquery.cycle2.min.js></script>
-<script src=assets/js/bootstrap.min.js></script>
-<script>$(".carousel").carousel({interval:3500});</script>
-<script>UserVoice=window.UserVoice||[];(function(){var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src="//widget.uservoice.com/gnakMjnZIYZd6SGwbredg.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})();UserVoice.push(["set",{accent_color:"#448dd6",trigger_color:"white",trigger_background_color:"#448dd6"}]);UserVoice.push(["identify",{}]);UserVoice.push(["addTrigger",{mode:"contact",trigger_position:"bottom-right"}]);UserVoice.push(["autoprompt",{}]);</script>
-</body>
-</html>
+{% include footer.html %}
+

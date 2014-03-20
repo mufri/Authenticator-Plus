@@ -1,6 +1,8 @@
 ---
  layout: default
  title: Sitemap
+ description: Sitemap of Authenticator Plus
+ keywords: sitemap
 ---
  - [http://{{ site.domain }}](http://{{ site.domain }})
 {% for page in site.posts %}
