@@ -1,0 +1,17 @@
+{% if site.google_analytics_tracking_id %}
+<script>
+
+$('#download_playstore').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'download_playstore');
+});
+
+$('#download_beta').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'download_beta');
+});
+
+$('#download_amazon').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'download_amazon');
+});
+</script>
+
+{% endif %}
