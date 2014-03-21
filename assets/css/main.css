@@ -1,3 +1,24 @@
+    .tablestyleodd{
+        width:100%; 
+        border-collapse:collapse; 
+        word-wrap: break-word;
+    }
+    .tablestyleodd td{
+        padding:5px; 
+        border:#cccccc 1px solid;
+        word-wrap: break-word;
+    }
+    .tablestyleodd th{
+        padding:5px; 
+        border:#cccccc 1px solid;
+        word-wrap: break-word;
+    }
+
+.footetfonticon {
+    font-size: 32px;
+    color: #f2f2f2;
+}
+
 
 body {
   background-color: #f2f2f2;
@@ -51,7 +72,7 @@ p {
 
 /* Links */
 a {
-    color: #3bc492;
+    color: #448dd6;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
