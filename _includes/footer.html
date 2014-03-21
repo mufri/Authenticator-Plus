@@ -47,5 +47,11 @@ Icons by <a href="https://www.iconfinder.com/icons/3283/preferences_settings_too
 </div>
 </div>
 {% include uservoice.html %}
+<script type=text/javascript> 
+  var endTime = new Date().getTime();
+  var timeSpent = endTime - window.startTime;
+  console.log(timeSpent)
+  ga('send', 'timing', 'html', 'Load html', timeSpent, 'Page loaded');
+ </script>
 </body>
 </html>
