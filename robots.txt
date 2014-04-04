@@ -1,3 +1,3 @@
-Sitemap: http://authenticatorplus.mufri.com/sitemap.xml
+Sitemap: http://authenticatorplus.com/sitemap.xml
 User-agent: *
 Allow: /
