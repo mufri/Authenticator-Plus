@@ -1,3 +1,4 @@
 Sitemap: http://authenticatorplus.com/sitemap.xml
+Sitemap: http://app.wistia.com/sitemaps/38213.xml
 User-agent: *
 Allow: /
